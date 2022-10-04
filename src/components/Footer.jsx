@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from "../assets/Library.svg";
 import { Link } from "react-router-dom";
+import Logo from "../assets/Library.svg"
+
 const Footer = () => {
   return (
     <footer>
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="row row__column">
           <Link to="/">
             <figure className="footer__logo">
-              <img src={Logo} alt="" className="footer__logo--img" />
+              <img src={Logo} className="footer__logo--img" alt="" />
             </figure>
           </Link>
           <div className="footer__list">

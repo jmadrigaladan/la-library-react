@@ -1,18 +1,20 @@
 import React from "react";
-import Landing from "../components/Landing.jsx";
-import Highlights from "../components/Highlights.jsx";
-import Featured from "../components/Featured.jsx";
-import Discounted from "../components/Discounted.jsx";
-import Explore from "../components/Explore.jsx";
+import Landing from "../components/Landing";
+import Highlights from "../components/Highlights";
+import Features from "../components/Featured";
+import CheapestBooks from "../components/CheapestBooks";
+import Explore from "../components/Explore";
 
 const Home = () => {
   return (
     <>
       <Landing />
-      <Highlights />
-      <Featured />
-      <Discounted />
-      <Explore />
+      <main>
+        <Highlights />
+        <Features />
+        <CheapestBooks />
+        <Explore />
+      </main>
     </>
   );
 };

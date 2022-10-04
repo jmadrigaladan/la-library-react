@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Highlight from "./ui/Highlight.jsx";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Highlight from "./ui/Highlight";
 
 const Highlights = () => {
   return (
@@ -14,17 +14,17 @@ const Highlights = () => {
             <Highlight
               icon={<FontAwesomeIcon icon="bolt" />}
               title="Easy and Quick"
-              paragraph="Get access to the book you purchased online instantly."
+              para="Get access to the book you purchased online instantly."
             />
             <Highlight
               icon={<FontAwesomeIcon icon="book-open" />}
               title="10,000+ Books"
-              paragraph="Library has books in all your favourite categories."
+              para="Library has books in all your favourite categories."
             />
             <Highlight
               icon={<FontAwesomeIcon icon="tags" />}
               title="Affordable"
-              paragraph="Get your hands on popular books for as little as $10"
+              para="Get your hands on popular books for as little as $10."
             />
           </div>
         </div>
